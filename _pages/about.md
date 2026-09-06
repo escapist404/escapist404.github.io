@@ -2,33 +2,40 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Undergraduate in Artificial Intelligence · Gaoling School of Artificial Intelligence · Renmin University of China
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: yangming_homepage.jpg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Renmin University of China</p>
+    <p>Beijing, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+selected_papers: false
+social: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am **Yangming Xiong**, an undergraduate in Artificial Intelligence at the **Gaoling School of Artificial Intelligence, Renmin University of China**. I began my studies in August 2025 and expect to graduate with a B.Eng. in July 2029.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Since July 2026, I have been a **research intern at Tsinghua University's Institute for Interdisciplinary Information Sciences (IIIS)**, advised by **Mengdi Xu**. I also joined **Litchi Lab** as an intern in July 2026.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests are **embodied world models**, **vision-language-action models and robot learning**, and **multimodal agents for long-horizon reasoning, planning, and interaction**.
+
+I am a core team member of the Qiushi Academic Project on semantic-based medical image retrieval, advised by **Assoc. Prof. Wenping Zhang**. I contribute to cardiac image retrieval model design and PyTorch implementation using real-world clinical data. The project has been recommended for the National College Student Innovation Training Program.
+
+My other projects include physics-informed video prediction for ink diffusion in water, a logic formula toolkit and benchmark suite, and a playable Unity fighting game. In the video prediction project advised by **Prof. Suyun Zhao**, our four-member team reduced test MSE by **28.6%** over the TAU-only baseline, achieving **0.9420 SSIM** and **32.11 dB PSNR**. See my [research and projects]({{ '/projects/' | relative_url }}) for details.
+
+## Selected awards and honors
+
+- **400/500, 41st CCF CSP Certification** — ranked 1st among participants from Renmin University of China, March 2026.
+- **Bronze Medal, 2025 ICPC Asia Wuhan Regional Contest (50th ICPC)** — November 2025.
+- **First Prize, NOIP, Guangxi** — 2022 and 2023.
+
+I work with **C++, Python, PyTorch, Linux, Git, and LaTeX**. I speak Chinese natively and scored **620/710 on CET-4** and **603/710 on CET-6**.
+
+For education, internships, and project details, see my [CV]({{ '/cv/' | relative_url }}). You can reach me at [xiongyangming676@ruc.edu.cn](mailto:xiongyangming676@ruc.edu.cn).

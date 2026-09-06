@@ -4,17 +4,17 @@
 
 title: Yangming Xiong's Homepage # the website title (if blank, full name will be used instead)
 first_name: Yangming
-middle_name: R.
+middle_name:
 last_name: Xiong
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Yangming Xiong, Artificial Intelligence undergraduate at Renmin University of China.
+  Research interests in embodied world models, robot learning, and multimodal agents.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Yangming Xiong, Renmin University of China, artificial intelligence, embodied world models, robot learning, multimodal agents
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -159,17 +159,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -216,6 +206,25 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  # Hide starter demonstrations until personal content is available.
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/plugins.md
+  - _pages/profiles.md
+  - _pages/publications.md
+  - _pages/teaching.md
+  - _pages/news.md
+  - _posts/
+  - _books/
+  - _news/
+  - _teachings/
+  - assets/jupyter/
+  - _projects/5_project.md
+  - _projects/6_project.md
+  - _projects/7_project.md
+  - _projects/8_project.md
+  - _projects/9_project.md
   - al-folio-upgrade-report.md
   - bin/
   - CONTRIBUTING.md
@@ -341,8 +350,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Xiong]
+  first_name: [Yangming, Y.]
 
   style: apa
   locale: en
